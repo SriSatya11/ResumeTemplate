@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- To use fonts from a third party site -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="resumeTemplate.ico">
+    <title>Resume Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Using CSS grid system to create different boxes for each kind of content -->
+    <div class="wrapper">
+        <div class="box a">
+            <!-- Navigation bar at the top -->
+            <nav>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </nav>
+        </div>
+        <div class="box b" id="Home">
+            <div class="profilephoto">
+             <img src="profilepic.jpg" height="400px" width="420px" alt="Profile picture">
+            </div>      
+            <div class="profileinfo">
+             <h2 id="info"> Sri Satya Pothala</h2>
+            </div>  
+        </div>
+        <div class="box c" id="Experience">
+            <!-- Content related to work Experience  -->
+            <p class="headings"> <i class="fa fa-suitcase"></i> &nbsp; Work Experience</p>
+            <hr>
+            <p class="headings">
+                <i class="fa fa-calendar"></i> &nbsp; Feb 2021 - Dec 2021<br>   
+            </p>
+            <p class="contentMain">
+                Programmer Analyst Trainee/Cognizant Technology Solutions
+             </p> 
+            <p class="content">Worked with a team of 10 members on front end technologies HTML5, CSS3, Bootstrap and JavaScript.</p>
+            <!-- content related to Education background using #id-->
+            <p class="headings" id="Education"> <i class="fa fa-certificate"></i> &nbsp; Education</p>
+            <hr>
+            <p class="headings">
+                <i class="fa fa-calendar"></i> &nbsp; Jan 2022 - till date<br>   
+            </p>
+            <p class="contentMain">
+                Master's Degree / Computer Science
+             </p> 
+            <p class="headings">
+                <i class="fa fa-calendar"></i> &nbsp; Jun 2016 - April 2020<br>   
+            </p>
+            <p class="contentMain">
+                Bachelor's Degree / Electronics and Communication Engineering
+             </p> 
+             <p class="headings">
+                <i class="fa fa-calendar"></i> &nbsp; Jun 2014 - April 2016<br>   
+            </p>
+            <p class="contentMain">
+                Intermediate / MPC
+             </p> 
+        </div>
+        <!-- Skills Content -->
+        <div class="box d" id="Skills">
+            <!-- Two container elements inside a grid box -->
+                <div class="TechSkills">
+                    <p class="headings"> <i class="fa fa-certificate"></i>&nbsp; Skills</p>
+                    <p class="content" >HTML and CSS</p>
+                    <div class="skillsbar cs">
+                        80%
+                    </div>
+                    <p class="content" >Bootstrap</p>
+                    <div class="skillsbar bts">
+                        60%
+                    </div>
+                    <p class="content">Python</p>
+                    <div class="skillsbar py">
+                        70%
+                    </div>
+                    <!-- <p class="content">Java</p>
+                    <div class="skillsbar java">
+                        50%
+                    </div> -->
+                </div>
+                <div class="lang">
+                    <p class="headings"> <i class="fa fa-globe"></i>&nbsp; Languages</p>
+                    <p class="content" >English</p>
+                        <div class="skillsbar cs">
+                            100%
+                        </div>
+                        <p class="content" >Hindi</p>
+                        <div class="skillsbar bts">
+                            90%
+                        </div>
+                        <p class="content">Telugu</p>
+                        <div class="skillsbar py">
+                            100%
+                        </div>
+                
+                </div>
+        </div>
+        <!-- Contact Details -->
+        <div class="box e" id="Contact"><p class="headings">Contact Details</p>
+            <p class="content">
+                <i class="fa fa-envelope"></i> &nbsp; satyasreepothala114@gmail.com
+            </p>
+            <p class="content">
+                <i class="fa fa-phone"></i> &nbsp; +44-7780313572
+            </p>
+            <p class="content">
+                <i class="fa fa-home"></i> &nbsp; London, UK
+            </p>
+        </div>
+        <div class="box f">
+            <!-- Navigation bar at the bottom for easy access of the contents-->
+            <nav>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Projects">Skills</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>

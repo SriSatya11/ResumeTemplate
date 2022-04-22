@@ -1,0 +1,132 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body {
+  margin-left: 50px;
+  margin-right:50px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+li
+{
+   display: inline-block;
+   margin:10px;
+}
+li a 
+{
+    text-decoration-line: none;
+    color:white;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #fff;
+    color: rgb(59, 121, 125);
+  }
+
+  .box {
+    background-color: rgb(59, 121, 125);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+  }
+  .box a 
+  {
+    color:rgb(4, 49, 47); 
+    font-size: 30px;
+    font-style: italic;
+  }
+  .box b 
+  {
+    padding:20px;
+  }
+  .TechSkills
+  {
+    display: inline-block;
+    margin-left: 20px;
+    width: 46%;
+  }
+  .lang
+  {
+    display: inline-block;
+    width: 48%;
+  }
+  .a {
+    grid-column: 1 / span 2;
+  }
+  .b {
+    grid-column: 3 ;
+    grid-row: 1 / span 2;
+  }
+  .c {
+    grid-column: 1 /span 2 ;
+    grid-row: 2/span 2;
+  }
+  .d{
+    grid-column: 1/span 3;
+    grid-row: 4;
+  }
+  .e {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .f {
+    grid-column: 1/span 3 ;
+  }
+  .headings
+  {
+      color: rgb(4, 49, 47);
+      font-style: italic;
+  }
+  #info
+  {
+    color:rgb(4, 49, 47);
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .title
+  {
+    color:rgb(4, 49, 47);
+  }
+  .contentMain
+  {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .content
+  {
+    font-size:20px;
+    font-family: sans-serif;
+    font-style: normal;
+  }
+  .skillsbar
+  {
+    background-color:rgb(4, 49, 47);
+    border-radius: 16px;
+    text-align: center;
+    height: 20px;
+    font-size: 15px;
+  }
+  .cs
+  {
+    width: 80%;
+  }
+  .py
+  {
+    width: 70%;
+  }
+  .bts
+  {
+    width: 60%;
+  }
+  .java
+  {
+    width: 50%;
+  }
+ 
