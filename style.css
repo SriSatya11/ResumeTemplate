@@ -44,6 +44,12 @@ li a
   {
     padding:20px;
   }
+  .boxbImage
+  {
+    
+    max-height: 100%;
+    width: 100%;
+  }
   .TechSkills
   {
     display: inline-block;
